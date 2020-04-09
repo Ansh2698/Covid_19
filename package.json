@@ -1,0 +1,23 @@
+{
+  "name": "covid_19",
+  "version": "1.0.0",
+  "description": "Covid app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansh2698/Covid_19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ansh2698/Covid_19/issues"
+  },
+  "homepage": "https://github.com/Ansh2698/Covid_19#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
