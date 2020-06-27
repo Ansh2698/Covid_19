@@ -4,11 +4,11 @@ var container=dependable.container();
 
 var MyModule=[
     ["_","lodash"],
-    ["Shopkeeper","./model/shopkeeper"],
-    ["User","./model/user"],
+    ["Product","./model/product"],
+    ["multer","multer"],
+    ["fs","fs"],
     ["async","async"],
-    ["bcrypt","bcrypt"],
-    ["passport","passport"]
+    ["axios","axios"]
 ];
 MyModule.forEach(function(val){
     container.register(val[0],function(){

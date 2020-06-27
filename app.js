@@ -6,19 +6,14 @@ var app= express();
 var container=require("./container");
 var mongoose=require("mongoose");
 var _ =require("lodash");
-const PORT=process.env.PORT || 5000;
-require('dotenv').config();
+const PORT=process.env.PORT || 9000;
 container.resolve(function(users){
-    mongoose.connect(process.env.DB_CONNECTION,{ useNewUrlParser: true ,useUnifiedTopology: true},function(){
-        console.log("DB has succesfully connected with Mongodb");
-    });
-    mongoose.set('useCreateIndex', true);
     var app=SetExpress();
     function SetExpress(){
         var app=express();
         var server=http.createServer(app);
         server.listen(PORT,function(){
-            console.log("server is running on port 5000");
+            console.log("server is running on port 8000");
         })
         Configure(app);
         var router=require("express-promise-router")();

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title Page-->
+    <title>Unergia Product submit</title>
+    <!-- Icons font CSS-->
+     <!-- Vendor CSS-->
+    <!-- <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all"> -->
+
+    <!-- Main CSS-->
+    <link href="/css/submit_product.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Product Details</h2>
+                    <form action="/submit" method="POST" enctype="multipart/form-data">
+                        <div class="row row-space">
+                            <div class="col-4">
+                                <div class="input-group">
+                                    <label class="label">Name</label>
+                                    <input class="input--style-4" type="text" name="Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-4">
+                                <div class="input-group">
+                                    <label class="label">Description</label>
+                                    <input class="input--style-4" rows="1" style="width: 100%;" type="text" name="Description">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-4">
+                                <div class="input-group">
+                                    <label class="label">Price</label>
+                                    <input class="input--style-4" type="text" name="Price">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-4">
+                                <div class="input-group">
+                                    <label class="label">Category</label>
+                                    <input class="input--style-4" type="text" name="Category_id">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-4">
+                                <div class="input-group">
+                                    <label class="label">Product Image</label>
+                                    <input class="input--style-4" type="file" name="productImage">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <!-- Vendor JS-->
+    <!-- <script src="vendor/select2/select2.min.js"></script> -->
+</body>
+
+</html>
+<!-- end document-->
