@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Ansh2698/Covid_19#readme",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "axios": "^0.19.2",
     "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
